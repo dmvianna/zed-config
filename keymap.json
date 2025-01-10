@@ -1,0 +1,89 @@
+/// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "ctrl-g": "menu::Cancel",
+      "ctrl-x 3": "pane::SplitRight",
+      "ctrl-x 2": "pane::SplitDown"
+    }
+  },
+  {
+    "context": "Picker || menu",
+    "bindings": {
+      "ctrl-p": "menu::SelectPrev",
+      "ctrl-n": "menu::SelectNext",
+      "up": "menu::SelectPrev",
+      "down": "menu::SelectNext"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-<": "editor::MoveToBeginning",
+      "alt->": "editor::MoveToEnd",
+      "alt-u": "editor::ConvertToUpperCase",
+      "alt-l": "editor::ConvertToLowerCase",
+      "alt-c": "editor::ConvertToUpperCamelCase",
+      "alt-.": "editor::GoToDefinition",
+      "alt-?": "editor::FindAllReferences",
+      "ctrl-x h": "editor::SelectAll",
+      "alt-;": "editor::ToggleComments",
+      "ctrl-/": "editor::Undo",
+      "ctrl-shift-/": "editor::Redo",
+      "ctrl-shift-n": null,
+      "ctrl-shift-p": null,
+      "ctrl-alt-n": null,
+      "ctrl-alt-p": null,
+      "ctrl-shift-alt-n": null,
+      "ctrl-shift-alt-p": null
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "ctrl-o": ["workspace::SendKeystrokes", "enter ctrl-p ctrl-e"],
+      "alt-g alt-g": "go_to_line::Toggle"
+    }
+  },
+  {
+    "context": "BufferSearchBar > Editor",
+    "bindings": {
+      "ctrl-s": "search::SelectNextMatch",
+      "ctrl-r": "search::SelectPrevMatch",
+      "ctrl-g": "buffer_search::Dismiss",
+      "enter": "buffer_search::Dismiss"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-x 0": "pane::CloseActiveItem",
+      "ctrl-x 1": "workspace::CloseInactiveTabsAndPanes",
+      "ctrl-x 2": "pane::SplitDown",
+      "ctrl-x 3": "pane::SplitRight",
+      "alt-,": "pane::GoBack"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-x": "command_palette::Toggle",
+      "ctrl-x 4": "workspace::NewWindow",
+      "ctrl-n": null,
+      "ctrl-p": null,
+      "ctrl-shift-/": null,
+      "ctrl-shift-n": null,
+      "ctrl-shift-p": null,
+      "ctrl-alt-n": null,
+      "ctrl-alt-p": null,
+      "ctrl-shift-alt-n": null,
+      "ctrl-shift-alt-p": null
+    }
+  }
+]
