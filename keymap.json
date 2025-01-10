@@ -80,14 +80,7 @@
       "alt-x": "command_palette::Toggle",
       "ctrl-x 4": "workspace::NewWindow",
       "ctrl-n": null,
-      "ctrl-p": null,
-      "ctrl-shift-/": null,
-      "ctrl-shift-n": null,
-      "ctrl-shift-p": null,
-      "ctrl-alt-n": null,
-      "ctrl-alt-p": null,
-      "ctrl-shift-alt-n": null,
-      "ctrl-shift-alt-p": null
+      "ctrl-p": null
     }
   }
 ]
