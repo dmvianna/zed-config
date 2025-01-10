@@ -42,10 +42,10 @@
       "ctrl-shift-/": "editor::Redo",
       "ctrl-shift-n": "editor::SelectDown",
       "ctrl-shift-p": "editor::SelectUp",
-      "ctrl-alt-n": null,
-      "ctrl-alt-p": null,
-      "ctrl-shift-alt-n": null,
-      "ctrl-shift-alt-p": null
+      "alt-shift-f": "editor::SelectToNextWordEnd",
+      "alt-shift-b": "editor::SelectToPreviousWordStart",
+      "ctrl-alt-shift-f": "editor::SelectToEndOfLine",
+      "ctrl-alt-shift-b": "editor::SelectToBeginningOfLine"
     }
   },
   {
