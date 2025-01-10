@@ -70,7 +70,8 @@
       "ctrl-x 1": "workspace::CloseInactiveTabsAndPanes",
       "ctrl-x 2": "pane::SplitDown",
       "ctrl-x 3": "pane::SplitRight",
-      "alt-,": "pane::GoBack"
+      "alt-,": "pane::GoBack",
+      "ctrl-x ctrl-space": "pane::GoBack"
     }
   },
   {
