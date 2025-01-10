@@ -80,7 +80,11 @@
       "ctrl-x 4": "workspace::NewWindow",
       "ctrl-x o": "tab_switcher::Toggle",
       "ctrl-n": null,
-      "ctrl-p": null
+      "ctrl-p": null,
+      "alt-x b": ["workspace::ActivatePaneInDirection", "Left"],
+      "alt-x f": ["workspace::ActivatePaneInDirection", "Right"],
+      "alt-x p": ["workspace::ActivatePaneInDirection", "Up"],
+      "alt-x n": ["workspace::ActivatePaneInDirection", "Down"]
     }
   }
 ]
