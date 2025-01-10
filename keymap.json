@@ -10,7 +10,8 @@
     "bindings": {
       "ctrl-g": "menu::Cancel",
       "ctrl-x 3": "pane::SplitRight",
-      "ctrl-x 2": "pane::SplitDown"
+      "ctrl-x 2": "pane::SplitDown",
+      "alt-x": "app_menu::OpenApplicationMenu"
     }
   },
   {
