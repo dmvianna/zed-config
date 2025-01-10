@@ -11,7 +11,8 @@
       "ctrl-g": "menu::Cancel",
       "ctrl-x 3": "pane::SplitRight",
       "ctrl-x 2": "pane::SplitDown",
-      "alt-x": "app_menu::OpenApplicationMenu"
+      "alt-x": "app_menu::OpenApplicationMenu",
+      "ctrl-?": null
     }
   },
   {
@@ -39,7 +40,7 @@
       "alt-w": "editor::Copy",
       "ctrl-w": "editor::Cut",
       "ctrl-/": "editor::Undo",
-      "ctrl-shift-/": "editor::Redo",
+      "ctrl-?": "editor::Redo",
       "ctrl-shift-n": "editor::SelectDown",
       "ctrl-shift-p": "editor::SelectUp",
       "alt-shift-f": "editor::SelectToNextWordEnd",
