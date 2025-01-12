@@ -41,6 +41,8 @@
       "ctrl-?": "editor::Redo",
       "ctrl-shift-n": "editor::SelectDown",
       "ctrl-shift-p": "editor::SelectUp",
+      "ctrl-shift-f": "editor::SelectRight",
+      "ctrl-shift-b": "editor::SelectLeft",
       "alt-shift-f": "editor::SelectToNextWordEnd",
       "alt-shift-b": "editor::SelectToPreviousWordStart",
       "ctrl-alt-shift-f": "editor::SelectToEndOfLine",
