@@ -74,7 +74,10 @@
       "ctrl-x 3": "pane::SplitRight",
       "alt-,": "pane::GoBack",
       "ctrl-x ctrl-space": "pane::GoBack",
-      "ctrl-u ctrl-space": "pane::GoForward"
+      "ctrl-u ctrl-space": "pane::GoForward",
+      "alt-s alt-r": "project_search::SearchInNew",
+      "ctrl-alt-s": "search::SelectNextMatch",
+      "ctrl-alt-r": "search::SelectPrevMatch"
     }
   },
   {
